@@ -15,7 +15,7 @@ from cv_bridge import CvBridge
 #cv2 is the main module in OpenCV that provides us with an easy-to-use
 #interface for working with image and video processing functions.
 import cv2
-
+import time
 import numpy as np
 
 class GatePilot(Node):
@@ -34,7 +34,17 @@ class GatePilot(Node):
         # Request for takeoff
         req = TelloAction.Request()
         req.cmd = 'takeoff'
-        
+
+        # taking the drone to a specific height
+        time.sleep(15)
+        twist = Twist()
+        twist.linear.z = 0.7
+        self.cmd_pub.publish(twist)
+        time.sleep(2)
+        twist.linear.z = 0.0
+        self.cmd_pub.publish(twist)
+        time.sleep(0.1)
+
         self.takeoff_client.call_async(req).add_done_callback(
             lambda future: self.get_logger().info('Takeoff complete'))
         self.took_off = True
@@ -58,7 +68,7 @@ class GatePilot(Node):
 
         # Pass-through buffer
         self.pass_through_frames = 0
-        self.PASS_FRAMES_MAX = 25
+        self.PASS_FRAMES_MAX = 70
 
     def preprocess(self, mask):
         k1 = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5,5))        # An ellipse of size 5×5 for opening (gentler on curved edges)
@@ -135,7 +145,7 @@ class GatePilot(Node):
                     continue
                 cx, cy = self.centroid(cnt)
                 if candidate is None or area > candidate[0]:
-                    candidate = (area, cnt, cx, cy+25, shape)
+                    candidate = (area, cnt, cx, cy+50, shape)
 
         # 4) Build and publish command
         twist = Twist()
