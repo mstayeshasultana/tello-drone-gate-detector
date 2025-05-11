@@ -10,8 +10,8 @@
 
 ### Terminal 1
 #### Build the package
-    mkdir -p ~/tello-drone-gate-detector/src
-    cd ~/tello-drone-gate-detector/src
+    mkdir -p ~/tello-drone-ws/src
+    cd ~/tello-drone-ws/src
     git clone https://github.com/mstayeshasultana/tello-drone-gate-detector.git
     cd ..
     source /opt/ros/galactic/setup.bash
