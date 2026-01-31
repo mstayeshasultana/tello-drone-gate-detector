@@ -29,15 +29,32 @@ The system successfully handles the "Gate Challenge" by prioritizing target gate
 ## 📺 Project Demo
 
 
+<img width="935" height="473" alt="Screenshot 2026-01-31 213804" src="https://github.com/user-attachments/assets/bb0bc231-b93d-4462-bd1b-c4737500870a" />
 
-https://github.com/user-attachments/assets/37984ab2-c8ea-4406-aaae-59311411a9b9
-
-
-
+<img width="670" height="528" alt="Screenshot 2026-01-31 213754" src="https://github.com/user-attachments/assets/a4bbc9b5-dd07-44d3-bfa1-1d21c4247ab4" />
 
 
-https://github.com/user-attachments/assets/3a574f58-abe0-4a3f-8bf5-961464ae8547
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/56ef73a7-b582-49ac-871d-7a51587c973b" 
+    width="100%" 
+    controls 
+    muted 
+    autoplay 
+    loop>
+    Your browser does not support the video tag.
+  </video>
+</div>
 
+<div align="center">
+  <video src="https://github.com/user-attachments/assets/001f320e-931d-473d-8a26-e5bf704a583d" 
+    width="100%" 
+    controls 
+    muted 
+    autoplay 
+    loop>
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 
 ## Group members:
