@@ -1,4 +1,42 @@
-# tello-drone-gate-detector
+## Tello Autonomous Drone - Gate Racing
+This project implements a fully autonomous navigation system for the Ryze Tello drone using ROS (Robot Operating System). The drone is programmed to navigate a complex racing arena by processing its live camera feed to detect, localize, and fly through a series of gates.
+
+
+
+
+## 🎯 Project Objectives
+The mission was to create a robust vision-based flight controller capable of:
+
+#### Vision-Only Navigation: 
+Entirely dependent on real-time image processing (no pre-mapped coordinates).
+#### Dynamic Gate Traversal: 
+Identifying and passing through gates of varying colors, shapes, sizes, and altitudes.
+
+
+
+## 🛠️ Technical Implementation
+Framework: ROS (Robot Operating System) for node communication and drone control.
+
+#### Computer Vision: 
+Developed a custom perception pipeline to handle color segmentation and geometric shape detection to calculate the drone's relative position to each gate.
+#### Control Loop: 
+Real-time PID or velocity commands sent via the Tello SDK based on visual feedback.
+
+##  🏁 Results
+The system successfully handles the "Gate Challenge" by prioritizing target gates based on visual proximity and executing smooth transitions between different gate heights and orientations.
+
+
+## 📺 Project Demo
+
+
+https://github.com/user-attachments/assets/3317ff02-dea1-4bde-8631-8a13e501bd8a
+
+
+
+
+https://github.com/user-attachments/assets/aa33c754-b675-4768-a535-63f0d0515f03
+
+
 
 ## Group members:
 1. Mst Ayesha Sultana
