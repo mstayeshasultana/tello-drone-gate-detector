@@ -78,3 +78,12 @@ The system successfully handles the "Gate Challenge" by prioritizing target gate
     source /opt/ros/galactic/setup.bash
     colcon build
     ros2 run gate_detector real_image_listener 
+
+#### 🛠️ Tech Stack (Drone Gate Detector)
+
+* **Framework:** ROS 2 (Galactic) for node communication and drone control.
+* **Computer Vision:** OpenCV and Python for the perception pipeline, color segmentation, and geometric shape detection.
+* **Languages:** C++, Python.
+* **Simulation & Tools:** Gazebo for 3D environment simulation and Docker for containerization.
+
+    
