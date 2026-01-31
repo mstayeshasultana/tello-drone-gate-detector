@@ -33,25 +33,13 @@ The system successfully handles the "Gate Challenge" by prioritizing target gate
 
 <img width="670" height="528" alt="Screenshot 2026-01-31 213754" src="https://github.com/user-attachments/assets/a4bbc9b5-dd07-44d3-bfa1-1d21c4247ab4" />
 
-
 <div align="center">
   <video src="https://github.com/user-attachments/assets/56ef73a7-b582-49ac-871d-7a51587c973b" 
     width="100%" 
-    controls 
-    muted 
-    autoplay 
-    loop>
-    Your browser does not support the video tag.
-  </video>
-</div>
-
-<div align="center">
-  <video src="https://github.com/user-attachments/assets/001f320e-931d-473d-8a26-e5bf704a583d" 
-    width="100%" 
-    controls 
-    muted 
-    autoplay 
-    loop>
+    controls="true" 
+    muted="muted" 
+    autoplay="true" 
+    loop="true">
     Your browser does not support the video tag.
   </video>
 </div>
