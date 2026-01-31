@@ -28,6 +28,12 @@ The system successfully handles the "Gate Challenge" by prioritizing target gate
 
 ## 📺 Project Demo
 
+<div align="center">
+  
+  <p><b>Figure 1:</b> Tello drone identifying the green gate using HSV color filtering.</p>
+</div>
+
+![Tello Autonomous Racing Demo](https://github.com/user-attachments/assets/3317ff02-dea1-4bde-8631-8a13e501bd8a)
 
 https://github.com/user-attachments/assets/3317ff02-dea1-4bde-8631-8a13e501bd8a
 
