@@ -45,9 +45,7 @@ The system successfully handles the "Gate Challenge" by prioritizing target gate
 </div>
 
 
-## Group members:
-1. Mst Ayesha Sultana
-2. Abdullokh Orifjonov
+
 
 
 
